@@ -379,14 +379,6 @@ select{
 		margin: 0 auto; 
 	}
 
-	.header{
-		padding: 0px 10%;
-	}
-
-	.menu{
-		right: 10%;
-	}
-
 	#slider{
 		width: 100%;
 	}
@@ -460,18 +452,6 @@ select{
 	.slider-top{
 		display: none;
 	}
-
-	.menu{
-		position: absolute;
-		right: 5%;
-		top: 25px;
-	}
-
-	.menu li{
-		position: relative;
-		margin-bottom: 23%;
-		float: none;
-	}
 }
 
 @media only screen and (max-width: 767px)
@@ -504,24 +484,6 @@ select{
 
 @media only screen and (max-width: 420px)
 {
-	.header{
-		height: 155px;
-		background-color: #F8CCAF;
-		padding: 0px 18%;
-	}
-
-	.menu{
-		position: absolute;
-		right: 18%;
-		top: 120px;
-
-	}
-
-	.menu li{
-		position: relative;
-		float: left;
-		
-	}
 
 	.cat {
 		margin-left: 0%;
@@ -542,18 +504,7 @@ select{
 
 @media only screen and (max-width: 320px)
 {
-	.menu{
-		position: absolute;
-		right: 14%;
-		top: 120px;
 
-	}
-
-	.menu li{
-		position: relative;
-		float: left;
-		margin-left: 10px;
-	}
 	
 	.unfind{
 	margin-left: 13%;
